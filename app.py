@@ -22,7 +22,7 @@ def get_data():
 
 @app.route('/api/ai-pdf')
 def get_data2():
-    data = {"name": "John Doe", "age": 30, "test": ["this", "fuch you all", "you", "all motherfuckers get the fuck out now!"]}
+    data = {"name": "John Doe", "age": 30, "test": ["this", "test"]}
     return jsonify(data)
 
 if __name__ == '__main__':
